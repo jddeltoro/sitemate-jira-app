@@ -4,11 +4,11 @@ This project is a ticket management system that consists of a backend API and a 
 ## Backend API
 The backend API is built with Node.js and Express. It uses the apicache middleware for caching responses and improves performance. The API supports the following operations:
 
--GET /: Fetch all tickets. This route is cached for 2 minutes to improve performance.
--GET /:id: Fetch a specific ticket by its ID.
--POST /: Create a new ticket.
--PATCH /:id: Update a specific ticket by its ID.
--DELETE /:id: Delete a specific ticket by its ID.
+- `GET /`: Fetch all tickets. This route is cached for 2 minutes to improve performance.
+- `GET /:id`: Fetch a specific ticket by its ID.
+- `POST /`: Create a new ticket.
+- `PATCH /:id`: Update a specific ticket by its ID.
+- `DELETE /:id`: Delete a specific ticket by its ID.
 
 
 ## Frontend Application
