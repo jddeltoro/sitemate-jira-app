@@ -20,10 +20,11 @@ const getTicketById = async (id) => {
 };
 
 const updateTicket = async (ticket, id) => {
-    const index = DB.tickets.findIndex(w => w.id === id);
+    const index = DB.tickets.findIndex(t => t.id === id);
     if (index === -1) {
         return {message: "Ticket not found"};
     }
+    ticket.id = id;
     DB.tickets[index] = ticket;
     saveToDB(DB);
     return ticket;
