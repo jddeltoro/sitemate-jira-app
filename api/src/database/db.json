@@ -1,54 +1,61 @@
 {
-    "tickets": [
-        {
-            "id": 1,
-            "title": "Ticket 1",
-            "description": "This is ticket 1"
-        },
-        {
-            "id": 2,
-            "title": "Ticket 2",
-            "description": "This is ticket 2"
-        },
-        {
-            "id": 3,
-            "title": "Ticket 3",
-            "description": "This is ticket 3"
-        },
-        {
-            "id": 4,
-            "title": "Ticket 4",
-            "description": "This is ticket 4"
-        },
-        {
-            "id": 5,
-            "title": "Ticket 5",
-            "description": "This is ticket 5"
-        },
-        {
-            "id": 6,
-            "title": "Ticket 6",
-            "description": "This is ticket 6"
-        },
-        {
-            "id": 7,
-            "title": "Ticket 7",
-            "description": "This is ticket 7"
-        },
-        {
-            "id": 8,
-            "title": "Ticket 8",
-            "description": "This is ticket 8"
-        },
-        {
-            "id": 9,
-            "title": "Ticket 9",
-            "description": "This is ticket 9"
-        },
-        {
-            "id": 10,
-            "title": "Ticket 10",
-            "description": "This is ticket 10"
-        }
-    ]
+  "tickets": [
+    {
+      "id": "61dbae02-c147-4e28-863c-db7bd402b2d6",
+      "title": "Ticket 1",
+      "description": "This is ticket 1"
+    },
+    {
+      "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
+      "title": "Ticket 2",
+      "description": "This is ticket 2"
+    },
+    {
+      "id": 3,
+      "title": "94468df2-93ba-40f1-b746-079c7f4253dc",
+      "description": "This is ticket 3"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 4",
+      "description": "This is ticket 4"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 5",
+      "description": "This is ticket 5"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 6",
+      "description": "This is ticket 6"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 7",
+      "description": "This is ticket 7"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 8",
+      "description": "This is ticket 8"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 9",
+      "description": "This is ticket 9"
+    },
+    {
+      "id": "b19e08e9-ba3b-48a5-a621-c877dcae404e",
+      "title": "Ticket 10",
+      "description": "This is ticket 10"
+    },
+    {
+      "name": "Another Ticket",
+      "mode": "Test Ticket",
+      "id": "70958ce2-9af6-485c-ae16-2201fc7293a3",
+      "created_at": "3/11/2024, 10:16:16 AM",
+      "updated_at": "3/11/2024, 10:16:16 AM"
+    }
+  ]
 }
