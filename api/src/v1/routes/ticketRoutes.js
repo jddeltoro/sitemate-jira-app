@@ -5,6 +5,8 @@ const cache = apicache.middleware;
 const ticketController = require('../controllers/ticketController');
 
 router.get('/', ticketController.getAllTickets);
+//With cache middleware
+//router.get('/', cache('2 minutes'), ticketController.getAllTickets);
 
 router.get('/:id', ticketController.getTicketById);
 
