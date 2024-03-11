@@ -2,16 +2,16 @@ const express = require('express');
 const apicache = require('apicache');
 const router = express.Router();
 const cache = apicache.middleware;
-const workoutController = require('../controllers/ticketController');
+const ticketController = require('../controllers/ticketController');
 
-router.get('/', cache("2 minutes"), workoutController.getAllTickets);
+router.get('/', cache("2 minutes"), ticketController.getAllTickets);
 
-router.get('/:id', workoutController.getTicketById);
+router.get('/:id', ticketController.getTicketById);
 
-router.post('/', workoutController.createTicket);
+router.post('/', ticketController.createTicket);
 
-router.patch('/:id', workoutController.updateTicket);
+router.patch('/:id', ticketController.updateTicket);
 
-router.delete('/:id', workoutController.deleteTicket);
+router.delete('/:id', ticketController.deleteTicket);
 
 module.exports = router;

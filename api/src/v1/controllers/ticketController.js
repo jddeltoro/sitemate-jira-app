@@ -6,7 +6,6 @@ const getAllTickets = async (req, res) => {
 };
 
 const getTicketById = async (req, res) => {
-    console.log(req.params);
     if (!req.params.id) {
         res.status(400).send({status: "ERROR", message: "Missing Ticket ID"});
         return;
