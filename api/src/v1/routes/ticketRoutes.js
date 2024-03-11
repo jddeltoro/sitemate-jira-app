@@ -4,7 +4,7 @@ const router = express.Router();
 const cache = apicache.middleware;
 const ticketController = require('../controllers/ticketController');
 
-router.get('/', cache("2 minutes"), ticketController.getAllTickets);
+router.get('/', ticketController.getAllTickets);
 
 router.get('/:id', ticketController.getTicketById);
 
